@@ -10,7 +10,7 @@ gulp.task('default', () => {
 		  presets: ['es2015', 'react']
 		 }))
 	  .pipe(concat('all.js'))
-	  .pipe(sourcemaps.write('.'.))
+	  .pipe(sourcemaps.write('.'))
 	  .pipe(gulp.dest('dist'));
 });
 
